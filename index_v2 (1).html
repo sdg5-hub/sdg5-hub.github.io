@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Saiyid Osamah Gilani — Portfolio</title>
+  <meta name="description" content="Portfolio of Saiyid Osamah Gilani — Drexel Electrical Engineering (CS minor), ex-Pakistan Military Academy cadet, builder in Philadelphia." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <div class="nav">
+        <a href="#about">About</a>
+        <a href="#path">Path</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="toolbar">
+        <button id="theme" class="switch" aria-label="Toggle theme">🌙 Theme</button>
+        <a class="btn plain" href="https://github.com/sponsors/sdg5-hub/dashboard" target="_blank" rel="noreferrer">GitHub</a>
+        <a class="btn" href="mailto:osamahgilani@gmail.com">Contact</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div>
+          <span class="chip">Philadelphia, PA • Building in public</span>
+          <h1>Hi, I’m <span class="highlight">Saiyid Osamah Gilani</span>.</h1>
+          <p class="lead">Former Pakistan Military Academy cadet. Now majoring in <strong>Electrical Engineering at Drexel</strong> with a <strong>Computer Science minor</strong>. I design systems, write code, and learn fast in the wild.</p>
+          <div class="actions">
+            <a class="btn" href="#projects">See projects</a>
+            <a class="btn plain" href="#about">About me</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="me" src="me.JPG" alt="Portrait of Saiyid Osamah Gilani" />
+        </div>
+      </section>
+
+      <section id="about">
+        <h2>About me</h2>
+        <div class="grid cols-2">
+          <div class="card">
+            <p>Discipline from PMA, curiosity from building things, and momentum from shipping. I’m based in <strong>Philly</strong>, working at the intersection of circuits, code, and clean UX. I like small, fast iterations that get real users to “wow” quickly.</p>
+            <p>Focus areas right now: embedded foundations, practical data tooling, and 2D game mechanics. Also: writing docs people actually read.</p>
+            <div>
+              <span class="tag">C++</span><span class="tag">Python</span><span class="tag">HTML/CSS/JS</span><span class="tag">Automation</span><span class="tag">Game Dev</span>
+            </div>
+          </div>
+
+          <div class="card">
+            <h3 style="margin-top:0">Fun facts</h3>
+            <ul class="clean">
+              <li class="k"><span class="dot"></span><div>Prototype speed-runs: v1 in hours, v2 by morning.</div></li>
+              <li class="k"><span class="dot"></span><div>Balancing circuits and code — from Ohm’s Law to Big-O.</div></li>
+              <li class="k"><span class="dot"></span><div>Open-source addict — filing issues, shipping PRs, learning out loud.</div></li>
+              <li class="k"><span class="dot"></span><div>Philly local: fuel = coffee + halal platter + late-night commits.</div></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="path">
+        <h2>My path</h2>
+        <div class="card">
+          <ul class="clean">
+            <li class="k"><span class="dot"></span><div><strong>Drexel University</strong> — Pursuing B.S. Electrical Engineering (CS minor). <em>Designing systems, modeling, and writing robust software.</em></div></li>
+            <li class="k"><span class="dot acc2"></span><div><strong>Pakistan Military Academy</strong> — Cadet training: resilience, teamwork, leadership under pressure.</div></li>
+            <li class="k"><span class="dot acc"></span><div><strong>Open-source contributor</strong> — utilities, docs, small PRs; building in public.</div></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="grid cols-2">
+          <div class="card">
+            <h3>Ops Dashboard</h3>
+            <p>Lightweight analytics & automations for delivery routes, battery cycles, and maintenance planning.</p>
+            <div><span class="tag">Python</span><span class="tag">Flask</span><span class="tag">Pandas</span></div>
+          </div>
+
+          <div class="card">
+            <h3>Billing Automation for Clinic</h3>
+            <p>Automated medical billing sheets for a doctor’s practice — streamlined rent and expense tracking with Google Sheets scripts.</p>
+            <div><span class="tag">Google Apps Script</span><span class="tag">Automation</span><span class="tag">Sheets</span></div>
+          </div>
+
+          <div class="card">
+            <h3>Study Helper</h3>
+            <p>CLI scripts for spaced repetition cues, LaTeX quick-exports, and exam checklists.</p>
+            <div><span class="tag">Python</span><span class="tag">CLI</span></div>
+          </div>
+
+          <div class="card">
+            <h3>This Website</h3>
+            <p>Semantic HTML + responsive CSS + accessible components. No frameworks.</p>
+            <div><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <div class="card">
+          <p>Best way to reach me is email. I’m open to collaboration, internships, and interesting problems.</p>
+          <div class="contact-buttons">
+            <a class="btn plain" href="mailto:osamahgilani@gmail.com">Email</a>
+            <a class="btn plain" href="https://github.com/sponsors/sdg5-hub/dashboard" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="btn plain" href="https://www.linkedin.com/in/osamah-gilani-6764751b5/" target="_blank" rel="noreferrer">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div>© <span id="y"></span> Saiyid Osamah Gilani • Built in Philadelphia • <span class="mono">osamahgilani.github.io</span></div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
